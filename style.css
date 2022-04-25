@@ -1,0 +1,70 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif; 
+    background-image: url(https://previews.123rf.com/images/sn333g/sn333g1712/sn333g171200147/92242598-mathematics-vector-colorful-thin-line-banner-vector-linear-education-and-science-concept-banner-on-d.jpg);
+    background-position: center;
+    height: 100vh;
+
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+    margin:0;
+    overflow: hidden;
+}
+
+.container{
+    width: 300px;
+    height: auto;
+    border: 3px solid #222;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+table{
+    width: 100%;
+}
+td{
+    width: 70px;
+    height: 50px;
+
+}
+button{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(105, 252, 166,0.88);
+    border-width: 2px;
+    font-size: 23px;
+
+    position: relative;
+} 
+
+.result-box{
+    width: 100%;
+    min-height: 120px;
+    max-height: auto;
+    background-color: #555;
+    text-align: right;
+    
+    display:flex;
+    justify-content: space-around;
+    flex-direction: column;
+    
+}
+
+#previous-result{
+    font-size: 30px;
+    color: #ddd;
+    word-wrap: break-word;
+}
+#current-result{
+    font-size: 40px;
+    color: #fff;
+    word-wrap: break-word;
+}
